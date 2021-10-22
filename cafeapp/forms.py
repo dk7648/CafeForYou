@@ -12,5 +12,5 @@ class CafeCreationForm(ModelForm):
 class ProductCreationForm(ModelForm):
     class Meta:
         model = Product
-        fields = ['image', 'name', 'description', 'price', 'isSoldOut']
+        fields = ['image', 'name', 'description', 'price']
 
